@@ -18,8 +18,12 @@ This is a custom tree command implemented in Python, which allows users to displ
    ```bash
    cd LimitTree
    ```
-
-3. **Run the installation script**:
+3. **Make the installation script executable**:
+   Before running the installation script, make sure it has execution permissions.
+   ```bash
+   chmod +x install.sho
+```
+4. **Run the installation script**:
    The `install.sh` script will install the `tree` command so that you can use `tree n m`.
    ```bash
    sudo ./install.sh
