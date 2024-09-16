@@ -25,7 +25,6 @@ This is a custom tree command implemented in Python, which allows users to displ
 ## Usage
 
 Once installed, use the `tree` command to display directory structures with depth (`n`) and file limit (`m`). Example usage:
-
    ```bash
    tree 4 3
 
