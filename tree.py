@@ -1,8 +1,9 @@
+#!/usr/bin/env python3
 import os
 
 # ANSI escape sequences for colors
-CYAN = '\033[96m'
-RED = '\033[91m'
+CYAN = '\033[38;5;45m'  # Bright cyan/blue in 256 color mode
+RED = '\033[38;5;196m'  # Bright red in 256 color mode
 RESET = '\033[0m'
 
 # Global counters for directories, files, and skipped files
