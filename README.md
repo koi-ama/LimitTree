@@ -21,7 +21,7 @@ This is a custom tree command implemented in Python, which allows users to displ
 3. **Make the installation script executable**:
    Before running the installation script, make sure it has execution permissions.
    ```bash
-   chmod +x install.sho
+   chmod +x install.sh
 ```
 4. **Run the installation script**:
    The `install.sh` script will install the `tree` command so that you can use `tree n m`.
